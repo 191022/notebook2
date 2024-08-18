@@ -2,8 +2,8 @@
   <div id="app" class="noteApp">
     <h1>记事本应用</h1>
     <my-note v-for="(note,index) in noteArry" :key="note.id" :note="note" :index="index" @delete="deleteMyNote"></my-note>
-    <button @click="add" class="addButton">添加新笔记</button>
-    <button @click="clean" class="cleanButton">清空所有笔记</button>
+    <button @click="add" class="addButton">添加新的笔记</button>
+    <button @click="clean" class="cleanButton">清空所有的笔记</button>
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   </div>
